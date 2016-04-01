@@ -17,8 +17,8 @@
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>20</y>
+      <x>50</x>
+      <y>40</y>
       <width>311</width>
       <height>141</height>
      </rect>
@@ -50,6 +50,13 @@
         </widget>
        </item>
       </layout>
+     </item>
+     <item alignment="Qt::AlignHCenter">
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string>Minus</string>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QLabel" name="result">
